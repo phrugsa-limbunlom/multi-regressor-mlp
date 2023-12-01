@@ -57,6 +57,9 @@ class Sequential:
         self.loss = loss
 
     def sigmoid(self, x):
+        if self.optimizer is None:
+            learning_rate = 1e-6
+            return 1 / (1 + np.exp(-learning_rate * x))
         return 1 / (1 + np.exp(-self.optimizer.learning_rate * x))
 
     @staticmethod
@@ -212,11 +215,23 @@ class Sequential:
         return True
 
     def predict(self, x):
-        hidden_layer_neurons = self.feedforward(x, self.weight_input_hidden, self.bias_hidden)
 
-        predicted = self.feedforward(hidden_layer_neurons, self.weight_hidden_output, self.bias_output)
+        if self.layers is None:
+            hidden_layer_neurons = self.feedforward(x, self.weight_input_hidden, self.bias_hidden)
+
+            predicted = self.feedforward(hidden_layer_neurons, self.weight_hidden_output, self.bias_output)
+        else:
+            hidden_layer_neurons = self.sigmoid(x @ self.weight_input_hidden + self.bias_hidden)
+
+            predicted = hidden_layer_neurons @ self.weight_hidden_output + self.bias_output
 
         return predicted
+
+    def evaluate(self, x_test, y_test):
+
+        y_pred = model.predict(x_test)
+
+        return self.loss.rmse(y_test, y_pred)
 
     def save(self, path):
         np.savez(path, weights1=self.weight_input_hidden, weights2=self.weight_hidden_output, bias1=self.bias_hidden,
@@ -271,7 +286,7 @@ def preprocessing(dataframe):
     return x, y
 
 
-def train_model(path):
+def train_model(path, x_train, y_train):
     # hyperparameters grid for tuning
     learning_rates = [0.1, 1e-2, 1e-3, 1e-4, 1e-5, 1e-6]
     momentum = [0.9, 0.95, 0.8, 8e-5, 8e-6]
@@ -316,14 +331,10 @@ def train_model(path):
     return final_model
 
 
-def test_model(model):
-    evaluate = RootMeanSquaredError()
+def test_model(model, x_test, y_test):
+    loss = model.evaluate(x_test, y_test)
 
-    y_pred = model.predict(x_test)
-
-    rmse_evaluate = evaluate.rmse(y_test, y_pred)
-
-    logging.info(f"RMSE on test set is {rmse_evaluate:.8f}")
+    logging.info(f"RMSE on test set is {loss:.8f}")
 
 
 def load_model(path):
@@ -407,9 +418,9 @@ if __name__ == "__main__":
     logging.info(
         f"X train size : {len(x_train)}, y train size : {len(y_train)}, X test size : {len(x_test)}, y test size : {len(y_test)}")
 
-    model = train_model(save_path)
+    model = train_model(save_path, x_train, y_train)
 
-    test_model(model)
+    test_model(model, x_test, y_test)
 
     load_model(save_path)
 
