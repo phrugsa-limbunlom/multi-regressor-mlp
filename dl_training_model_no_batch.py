@@ -17,8 +17,8 @@ class SGD:
 
 
 class RootMeanSquaredError:
-    
-    def mse(self,y_act, y_pred):
+
+    def mse(self, y_act, y_pred):
         return np.mean((y_act - y_pred) ** 2)
 
     def rmse(self, y_act, y_pred):
@@ -58,8 +58,7 @@ class Sequential:
     def sigmoid(self, x):
         return 1 / (1 + np.exp(-self.optimizer.learning_rate * x))
 
-    
-    def dsigmoid(self,x):
+    def dsigmoid(self, x):
         return x * (1 - x)
 
     def feedforward(self, x, w, b):
@@ -72,32 +71,33 @@ class Sequential:
             self.count_feedforward += 1
             return x @ w + b
 
-    def gradient_hidden(self,gradient_output,hidden_layer_neurons):
+    def gradient_hidden(self, gradient_output, hidden_layer_neurons):
         sum_of_previous_gradients_and_weights = gradient_output @ self.weight_hidden_output.T
-        gradient_hidden = self.optimizer.learning_rate * self.dsigmoid(hidden_layer_neurons) * sum_of_previous_gradients_and_weights
+        gradient_hidden = self.optimizer.learning_rate * self.dsigmoid(
+            hidden_layer_neurons) * sum_of_previous_gradients_and_weights
         return gradient_hidden
 
-    def gradient_output(self,y_act,y_pred):
+    def gradient_output(self, y_act, y_pred):
         return y_act - y_pred
 
-    def calculate_dweight(self,gradient,neuron,prev_weight):
+    def calculate_dweight(self, gradient, neuron, prev_weight):
         return self.optimizer.learning_rate * (neuron.T @ gradient) + self.optimizer.momentum * prev_weight
 
-    def calculate_dbias(self,gradient,prev_bias):
-        return np.sum(gradient, axis=0, keepdims=True) * self.optimizer.learning_rate + self.optimizer.momentum * prev_bias
+    def calculate_dbias(self, gradient, prev_bias):
+        return np.sum(gradient, axis=0,
+                      keepdims=True) * self.optimizer.learning_rate + self.optimizer.momentum * prev_bias
 
-    def update_weights_and_bias(self,dw1,dw2,b1,b2):
+    def update_weights_and_bias(self, dw1, dw2, b1, b2):
         self.weight_hidden_output += dw2
         self.weight_input_hidden += dw1
         self.bias_output += b2
         self.bias_hidden += b1
 
-    def update_prev_weights_and_bias(self,dw1,dw2):
+    def update_prev_weights_and_bias(self, dw1, dw2):
         self.prev_weight_hidden_output = dw2
         self.prev_weight_input_hidden = dw1
         self.prev_bias_output = self.bias_output
         self.prev_bias_hidden = self.bias_hidden
-
 
     def initialize_weights_and_biases(self, input_size, hidden_size, output_size):
         # initialize weights and biases
@@ -119,82 +119,88 @@ class Sequential:
         hidden_neurons_size = self.layers[1].neuron
         output_neurons_size = self.layers[2].neuron
 
-        #cross validation
-        n_split = 5
-        for n in range(n_split):
-            logging.info(f"Iteration {n + 1}")
+        self.initialize_weights_and_biases(input_neurons_size, hidden_neurons_size, output_neurons_size)
 
-             # early stopping parameters
-            max_failed_threshold = 10
-            current_failed_threshold = 0
+        x_train, y_train, x_val, y_val = Model_Selection().train_test_split(x, y, validation_size / (1 - test_size))
 
-            minimum_loss = 1.0  # Initialize with a max value
+        logging.info(
+            f"X train size : {len(x_train)}, y train size : {len(y_train)}, X validation size : {len(x_val)}, y validation size : {len(y_val)}")
 
-            self.initialize_weights_and_biases(input_neurons_size, hidden_neurons_size,output_neurons_size)
+        # early stopping parameters
+        max_failed_threshold = 10
+        current_failed_threshold = 0
 
-            x_train, y_train, x_val, y_val = Model_Selection().train_test_split(x, y, validation_size / (1 - test_size))
+        minimum_loss = 1.0  # Initialize with a max value
 
-            #process epoch
-            for epoch in range(epochs):
+        # process epoch
+        for epoch in range(epochs):
 
-                start_time = time.time()
+            start_time = time.time()
 
-                # feedforward
-                hidden_layer_neurons = self.feedforward(x_train, self.weight_input_hidden, self.bias_hidden)
+            shuffle_idx = np.random.permutation(len(x_train))
+            X_train_shuffled, y_train_shuffled = x_train[shuffle_idx, :], y_train[shuffle_idx, :]
 
-                y_pred = self.feedforward(hidden_layer_neurons, self.weight_hidden_output, self.bias_output)
+            training_loss_batch = 0.0
+            # feedforward
+            hidden_layer_neurons = self.feedforward(X_train_shuffled, self.weight_input_hidden,
+                                                    self.bias_hidden)
 
-                # calculate loss of training set per one batch
-                training_loss = self.loss.rmse(y_train, y_pred)
-                self.training_losses.append(training_loss)
+            y_pred = self.feedforward(hidden_layer_neurons, self.weight_hidden_output, self.bias_output)
 
-                # backward propagation on output to hidden layer
-                gradient_output = self.gradient_output(y_train,y_pred)  # linear
+            # backward propagation on output to hidden layer
+            gradient_output = self.gradient_output(y_train, y_pred)  # linear
 
-                d_weight_hidden_output = self.calculate_dweight(gradient_output,hidden_layer_neurons,self.prev_weight_hidden_output)
+            d_weight_hidden_output = self.calculate_dweight(gradient_output, hidden_layer_neurons,
+                                                            self.prev_weight_hidden_output)
 
-                d_bias_output = self.calculate_dbias(gradient_output,self.prev_bias_output)
+            d_bias_output = self.calculate_dbias(gradient_output, self.prev_bias_output)
 
-                # backward propagation on hidden to input layer
-                gradient_hidden = self.gradient_hidden(gradient_output,hidden_layer_neurons)
+            # backward propagation on hidden to input layer
+            gradient_hidden = self.gradient_hidden(gradient_output, hidden_layer_neurons)
 
-                d_weight_input_hidden = self.calculate_dweight(gradient_hidden,x_train,self.prev_weight_input_hidden)
+            d_weight_input_hidden = self.calculate_dweight(gradient_hidden, X_train_shuffled,
+                                                           self.prev_weight_input_hidden)
 
-                d_bias_hidden = self.calculate_dbias(gradient_hidden,self.bias_hidden)
+            d_bias_hidden = self.calculate_dbias(gradient_hidden, self.bias_hidden)
 
-                #update weights and biases
-                self.update_weights_and_bias(d_weight_input_hidden,d_weight_hidden_output,d_bias_hidden,d_bias_output)
+            # update weights and biases
+            self.update_weights_and_bias(d_weight_input_hidden, d_weight_hidden_output, d_bias_hidden,
+                                         d_bias_output)
 
-                # save delta weights and biases for next epoch
-                self.update_prev_weights_and_bias(d_weight_input_hidden,d_weight_hidden_output)
+            # save delta weights and biases for next epoch
+            self.update_prev_weights_and_bias(d_weight_input_hidden, d_weight_hidden_output)
 
-                # loss of validation set per one batch
-                y_val_pred = self.predict(x_val)
-                validation_loss = self.loss.rmse(y_val, y_val_pred)
-                self.validation_losses.append(validation_loss)
+            # loss of training set per one epoch
+            training_loss = self.loss.rmse(y_train_shuffled, y_pred)
+            self.training_losses.append(training_loss)
 
+            # loss of validation set per one epoch
+            y_val_pred = self.predict(x_val)
+            validation_loss = self.loss.rmse(y_val, y_val_pred)
+            self.validation_losses.append(validation_loss)
 
-                #early stopping criteria
+            # early stopping criteria
+            if epoch <= 100:
                 if validation_loss < minimum_loss:
                     minimum_loss = validation_loss
                     current_failed_threshold = 0
                 else:
                     current_failed_threshold += 1
 
-                # stop fitting the model for current hyperparameters
-                # if a number of the current loss greater than the previous loss
-                # exceeding the threshold limit (current maximum is 5)
-                if current_failed_threshold >= max_failed_threshold:
-                    logging.info(f"Early stopping: No improvement")
-                    return False
+            # stop fitting the model for current hyperparameters
+            # if a number of the current loss greater than the previous loss
+            # exceeding the threshold limit (current maximum is 5)
+            if current_failed_threshold >= max_failed_threshold:
+                logging.info(f"Early stopping: No improvement")
+                return False
 
-                end_time = time.time()
+            end_time = time.time()
 
-                time_per_epoch = (end_time - start_time)
+            time_per_epoch = (end_time - start_time)
 
-                logging.info(f"Epoch {epoch + 1}/{epochs} - Time: {time_per_epoch:.2f} seconds")
-                logging.info(
-                        f"[===========================================================] Training Loss: {training_loss:.8f}, Validation Loss: {validation_loss:.8f}")
+            logging.info(f"Epoch {epoch + 1}/{epochs} - Time: {time_per_epoch:.2f} seconds")
+            logging.info(
+                f"[===========================================================] Training Loss: {training_loss:.8f}, Validation Loss: {validation_loss:.8f}")
 
         return True
 
@@ -209,8 +215,7 @@ class Sequential:
         np.savez(path, weights1=self.weight_input_hidden, weights2=self.weight_hidden_output, bias1=self.bias_hidden,
                  bias2=self.bias_output)
 
-    
-    def load(self,path):
+    def load(self, path):
         data = np.load(path)
         weight_input_hidden = data['weights1']
         weight_hidden_output = data['weights1']
@@ -220,7 +225,7 @@ class Sequential:
 
 
 class Model_Selection:
-    def train_test_split(self,x, y, test_size, shuffle=True):
+    def train_test_split(self, x, y, test_size, shuffle=True):
         if shuffle:
             train_size = 1 - test_size
             # Shuffle the training set
@@ -228,7 +233,7 @@ class Model_Selection:
             x_train = x[train_index, :]
             y_train = y[train_index, :]
             # Filter out validation set from training set
-            val_index = [i for i, x in enumerate(x) if x_train.tolist() not in x.tolist()]
+            val_index = [i for i in range(x.shape[0]) if i not in train_index]
             x_val = x[val_index, :]
             y_val = y[val_index, :]
             return x_train, y_train, x_val, y_val
@@ -261,8 +266,8 @@ def preprocessing(dataframe):
 
 def train_model(path):
     # hyperparameters grid for tuning
-    learning_rates = [0.1, 1e-3, 1e-5, 1e-6]
-    momentum = [8e-1, 8e-3, 8e-4]
+    learning_rates = [0.1, 1e-2, 1e-3, 1e-4, 1e-5]
+    momentum = [0.9, 0.95, 0.8, 8e-2,8e-3]
 
     final_lr = 0.0
     final_momentum = 0.0
@@ -285,7 +290,7 @@ def train_model(path):
 
             model.compiler(optimizer=sgd, loss=rmse)
 
-            fit = model.fit(x_train, y_train, epochs=100, batch_size=5)
+            fit = model.fit(x_train, y_train, epochs=100, batch_size=64)
 
             if fit:
                 logging.info("No early stopping!")
@@ -334,9 +339,9 @@ def visualization(model):
     optimal_validation_loss = min(model.validation_losses)
     optimal_validation_epoch = model.validation_losses.index(min(model.validation_losses))
 
-    logging.info(f"Optimal point for Training set is Loss :{optimal_training_loss:.8f} at {optimal_training_epoch}")
+    logging.info(f"Optimal point for Training set is Loss :{optimal_training_loss:.8f} at {optimal_training_epoch + 1}")
     logging.info(
-        f"Optimal point for Validation set is Loss :{optimal_validation_loss:.8f} at {optimal_validation_epoch}")
+        f"Optimal point for Validation set is Loss :{optimal_validation_loss:.8f} at {optimal_validation_epoch + 1}")
 
     plt.scatter(optimal_training_epoch, optimal_training_loss, color='r', label=f'Optimal Point for Training set')
     plt.scatter(optimal_validation_epoch, optimal_validation_loss, color='b', label=f'Optimal Point for Validation set')
@@ -347,7 +352,7 @@ def visualization(model):
     plt.xlabel('Epochs')
     plt.ylabel('Root Mean Square Error (RMSE)')
     plt.legend()
-    plt.savefig('Loss of 22K v2')
+    plt.savefig('Loss of 22K')
     plt.show()
 
 
@@ -360,15 +365,15 @@ if __name__ == "__main__":
     # output_neuron = sys.argv[5]
 
     file_name = "ce889_dataCollection.csv"
-    log_name = "activity_hidden4 v3.log"
+    log_name = "activity_hidden4.log"
     input_neuron = 2
-    hidden_neuron = 4
+    hidden_neuron = 4  # 2/3(in+out)
     output_neuron = 2
 
     validation_size = 0.15
     test_size = 0.15
 
-    save_path = 'model_saved_v2'
+    save_path = 'model_saved'
     # end parameters region
 
     logging.basicConfig(filename=log_name, level=logging.INFO)
@@ -382,6 +387,10 @@ if __name__ == "__main__":
     df = pd.read_csv(file_name, names=['col1', 'col2', 'col3', 'col4'])
 
     x, y = preprocessing(df)
+
+    # np.random.seed(42)
+    # x = np.random.rand(22000, 2)
+    # y = np.random.rand(22000, 2)
     # end preprocessing data
 
     logging.info(f"Features size : {len(x)}, Labels size : {len(y)}")
