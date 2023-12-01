@@ -18,7 +18,8 @@ class SGD:
 
 class RootMeanSquaredError:
 
-    def mse(self, y_act, y_pred):
+    @staticmethod
+    def mse(y_act, y_pred):
         return np.mean((y_act - y_pred) ** 2)
 
     def rmse(self, y_act, y_pred):
@@ -58,7 +59,8 @@ class Sequential:
     def sigmoid(self, x):
         return 1 / (1 + np.exp(-self.optimizer.learning_rate * x))
 
-    def dsigmoid(self, x):
+    @staticmethod
+    def dsigmoid(x):
         return x * (1 - x)
 
     def feedforward(self, x, w, b):
@@ -77,7 +79,8 @@ class Sequential:
             hidden_layer_neurons) * sum_of_previous_gradients_and_weights
         return gradient_hidden
 
-    def gradient_output(self, y_act, y_pred):
+    @staticmethod
+    def gradient_output(y_act, y_pred):
         return y_act - y_pred
 
     def calculate_dweight(self, gradient, neuron, prev_weight):
@@ -215,7 +218,8 @@ class Sequential:
         np.savez(path, weights1=self.weight_input_hidden, weights2=self.weight_hidden_output, bias1=self.bias_hidden,
                  bias2=self.bias_output)
 
-    def load(self, path):
+    @staticmethod
+    def load(path):
         data = np.load(path)
         weight_input_hidden = data['weights1']
         weight_hidden_output = data['weights1']
@@ -225,7 +229,8 @@ class Sequential:
 
 
 class Model_Selection:
-    def train_test_split(self, x, y, test_size, shuffle=True):
+    @staticmethod
+    def train_test_split(x, y, test_size, shuffle=True):
         if shuffle:
             train_size = 1 - test_size
             # Shuffle the training set

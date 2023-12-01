@@ -18,7 +18,8 @@ class SGD:
 
 class RootMeanSquaredError:
 
-    def mse(self, y_act, y_pred):
+    @staticmethod
+    def mse(y_act, y_pred):
         return np.mean((y_act - y_pred) ** 2)
 
     def rmse(self, y_act, y_pred):
@@ -58,7 +59,8 @@ class Sequential:
     def sigmoid(self, x):
         return 1 / (1 + np.exp(-self.optimizer.learning_rate * x))
 
-    def dsigmoid(self, x):
+    @staticmethod
+    def dsigmoid(x):
         return x * (1 - x)
 
     def feedforward(self, x, w, b):
@@ -176,41 +178,6 @@ class Sequential:
                 # save delta weights and biases for next epoch
                 self.update_prev_weights_and_bias(d_weight_input_hidden, d_weight_hidden_output)
 
-            # # feedforward
-            # hidden_layer_neurons = self.feedforward(X_train_shuffled, self.weight_input_hidden,
-            #                                             self.bias_hidden)
-            #
-            #
-            # y_pred = self.feedforward(hidden_layer_neurons, self.weight_hidden_output, self.bias_output)
-            #
-            # y_pred_arr.append(y_pred)
-            #
-            # # backward propagation on output to hidden layer
-            # gradient_output = self.gradient_output(y_train_shuffled, y_pred)  # linear
-            #
-            # d_weight_hidden_output = self.calculate_dweight(gradient_output, hidden_layer_neurons,
-            #                                                     self.prev_weight_hidden_output)
-            #
-            # d_bias_output = self.calculate_dbias(gradient_output, self.prev_bias_output)
-            #
-            # # backward propagation on hidden to input layer
-            # gradient_hidden = self.gradient_hidden(gradient_output, hidden_layer_neurons)
-            #
-            # d_weight_input_hidden = self.calculate_dweight(gradient_hidden, X_train_shuffled,
-            #                                                    self.prev_weight_input_hidden)
-            #
-            # d_bias_hidden = self.calculate_dbias(gradient_hidden, self.bias_hidden)
-            #
-            # # update weights and biases
-            # self.update_weights_and_bias(d_weight_input_hidden, d_weight_hidden_output, d_bias_hidden,
-            #                                  d_bias_output)
-            #
-            # # save delta weights and biases for next epoch
-            # self.update_prev_weights_and_bias(d_weight_input_hidden, d_weight_hidden_output)
-
-            # loss of training set per one epoch
-            # training_loss = self.loss.rmse(y_train_shuffled, np.array(y_pred_arr).reshape(len(y_pred_arr), 2))
-            # training_loss = self.loss.rmse(y_train_shuffled,y_pred)
             training_loss = training_loss_batch / (len(X_train_shuffled) / batch_size)
             self.training_losses.append(training_loss)
 
@@ -255,7 +222,8 @@ class Sequential:
         np.savez(path, weights1=self.weight_input_hidden, weights2=self.weight_hidden_output, bias1=self.bias_hidden,
                  bias2=self.bias_output)
 
-    def load(self, path):
+    @staticmethod
+    def load(path):
         data = np.load(path)
         weight_input_hidden = data['weights1']
         weight_hidden_output = data['weights1']
