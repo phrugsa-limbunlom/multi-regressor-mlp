@@ -235,7 +235,7 @@ class Sequential:
     def load(self,path):
         data = np.load(path)
         self.weight_input_hidden = data['weights1']
-        self.weight_hidden_output = data['weights1']
+        self.weight_hidden_output = data['weights2']
         self.bias_hidden = data['bias1']
         self.bias_output = data['bias2']
         return self.weight_input_hidden, self.weight_hidden_output, self.bias_hidden, self.bias_output
