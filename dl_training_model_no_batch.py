@@ -116,6 +116,20 @@ class Sequential:
         self.prev_weight_hidden_output = np.zeros_like(self.weight_hidden_output)
         self.prev_bias_output = np.zeros_like(self.bias_output)
 
+    def initialize_weights_and_biases(self, input_size, hidden_size, output_size):
+        # initialize weights and biases
+        np.random.seed(42)
+        self.weight_input_hidden = np.random.rand(input_size, hidden_size)
+        self.bias_hidden = np.zeros((1, hidden_size))
+        self.weight_hidden_output = np.random.rand(hidden_size, output_size)
+        self.bias_output = np.zeros((1, output_size))
+
+        # initialize previous weights and biases
+        self.prev_weight_input_hidden = np.zeros_like(self.weight_input_hidden)
+        self.prev_bias_hidden = np.zeros_like(self.bias_hidden)
+        self.prev_weight_hidden_output = np.zeros_like(self.weight_hidden_output)
+        self.prev_bias_output = np.zeros_like(self.bias_output)
+
     def fit(self, x, y, epochs, batch_size):
 
         input_neurons_size = self.layers[0].neuron
@@ -218,14 +232,13 @@ class Sequential:
         np.savez(path, weights1=self.weight_input_hidden, weights2=self.weight_hidden_output, bias1=self.bias_hidden,
                  bias2=self.bias_output)
 
-    @staticmethod
-    def load(path):
+    def load(self,path):
         data = np.load(path)
-        weight_input_hidden = data['weights1']
-        weight_hidden_output = data['weights1']
-        bias_hidden = data['bias1']
-        bias_output = data['bias2']
-        return weight_input_hidden, weight_hidden_output, bias_hidden, bias_output
+        self.weight_input_hidden = data['weights1']
+        self.weight_hidden_output = data['weights1']
+        self.bias_hidden = data['bias1']
+        self.bias_output = data['bias2']
+        return self.weight_input_hidden, self.weight_hidden_output, self.bias_hidden, self.bias_output
 
 
 class Model_Selection:

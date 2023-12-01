@@ -186,7 +186,7 @@ class Sequential:
             validation_loss = self.loss.rmse(y_val, y_val_pred)
             self.validation_losses.append(validation_loss)
 
-            #early stopping criteria
+            # early stopping criteria
             if epoch <= 100:
                 if validation_loss < minimum_loss:
                     minimum_loss = validation_loss
@@ -198,8 +198,8 @@ class Sequential:
             # if a number of the current loss greater than the previous loss
             # exceeding the threshold limit (current maximum is 5)
             if current_failed_threshold >= max_failed_threshold:
-               logging.info(f"Early stopping: No improvement")
-               return False
+                logging.info(f"Early stopping: No improvement")
+                return False
 
             end_time = time.time()
 
@@ -222,14 +222,13 @@ class Sequential:
         np.savez(path, weights1=self.weight_input_hidden, weights2=self.weight_hidden_output, bias1=self.bias_hidden,
                  bias2=self.bias_output)
 
-    @staticmethod
-    def load(path):
+    def load(self, path):
         data = np.load(path)
-        weight_input_hidden = data['weights1']
-        weight_hidden_output = data['weights1']
-        bias_hidden = data['bias1']
-        bias_output = data['bias2']
-        return weight_input_hidden, weight_hidden_output, bias_hidden, bias_output
+        self.weight_input_hidden = data['weights1']
+        self.weight_hidden_output = data['weights1']
+        self.bias_hidden = data['bias1']
+        self.bias_output = data['bias2']
+        return self.weight_input_hidden, self.weight_hidden_output, self.bias_hidden, self.bias_output
 
 
 class Model_Selection:
