@@ -4,32 +4,11 @@ INFO:root:Features size : 22812, Labels size : 22812
 INFO:root:X train size : 19390, y train size : 19390, X test size : 3422, y test size : 3422
 INFO:root:Start tuning hyperparameters : learning_rate = 0.1 and momentum = 0.9
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.05 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: inf, Validation Loss: inf
-INFO:root:Epoch 2/100 - Time: 0.04 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 3/100 - Time: 0.03 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.04 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.03 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.04 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.04 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Early stopping: No improvement
-INFO:root:Start tuning hyperparameters : learning_rate = 0.1 and momentum = 0.95
-INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.03 seconds
-INFO:root:[===========================================================] Training Loss: inf, Validation Loss: inf
-INFO:root:Epoch 2/100 - Time: 0.04 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 3/100 - Time: 0.03 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 4/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
@@ -37,529 +16,550 @@ INFO:root:Epoch 5/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.03 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.04 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Early stopping: No improvement
+INFO:root:Start tuning hyperparameters : learning_rate = 0.1 and momentum = 0.95
+INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: inf, Validation Loss: inf
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.1 and momentum = 0.8
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.05 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: inf, Validation Loss: inf
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 3/100 - Time: 0.03 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.03 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.04 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.1 and momentum = 8e-05
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.05 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.05 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.04 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.04 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.04 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.05 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.04 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.1 and momentum = 8e-06
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.04 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: inf, Validation Loss: inf
-INFO:root:Epoch 2/100 - Time: 0.05 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.04 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.03 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.04 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.04 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.05 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.01 and momentum = 0.9
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.03 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 705099047342866096748235713381727507810113499434331062403072.00000000, Validation Loss: 268960119799144078482017527235334026842133642480560974266892288.00000000
-INFO:root:Epoch 2/100 - Time: 0.05 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 24179864442548644774786255113743003699960169195916786179077036848620482415618088639453414381254763386076139085301436194488320.00000000, Validation Loss: 9223412315904821006859970740977539978344275718836177870765972237966698285423048995440810302844809160105945195974772138449043456.00000000
-INFO:root:Epoch 3/100 - Time: 0.05 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.05 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 6/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.03 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.03 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.01 and momentum = 0.95
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.03 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 463919920333275291689876241497508396491329960951673173393276928.00000000, Validation Loss: 185121147055101727878237971272972880044807495073148458161934434304.00000000
-INFO:root:Epoch 2/100 - Time: 0.04 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 10677599894489174373807245590779303871599270757424325855056937392187281009603857451070861722976007049288048123105331546800414261248.00000000, Validation Loss: 4260755905552107145413775788202238516144723457732448069860613082390197392056098428088330274319449003669275725624351746177112647663616.00000000
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.04 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.04 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.03 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.03 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.01 and momentum = 0.8
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.03 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 1013116991309818506516058737068326410149381828339826688.00000000, Validation Loss: 350031597022277659415576334126690509460881443003916353536.00000000
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 48318265951929281341561765635408722803303212097206224731005290188934385865910322063735505268500316212661734866944.00000000, Validation Loss: 16693945458988789791866285633366821278813162530622272117660932712230769768951170669849145575228201019799296807010304.00000000
-INFO:root:Epoch 3/100 - Time: 0.03 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.03 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 6/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.03 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.01 and momentum = 8e-05
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.04 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23573592, Validation Loss: 0.22994605
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23521601, Validation Loss: 0.23066618
-INFO:root:Epoch 3/100 - Time: 0.03 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23514766, Validation Loss: 0.22852510
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23486922, Validation Loss: 0.23257201
 INFO:root:Epoch 5/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.23611098, Validation Loss: 0.23057105
-INFO:root:Epoch 6/100 - Time: 0.04 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23430383, Validation Loss: 0.23439240
-INFO:root:Epoch 7/100 - Time: 0.03 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23502782, Validation Loss: 0.22941708
-INFO:root:Epoch 8/100 - Time: 0.05 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23505119, Validation Loss: 0.22860694
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23494267, Validation Loss: 0.22972040
-INFO:root:Epoch 10/100 - Time: 0.03 seconds
+INFO:root:Epoch 10/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23414918, Validation Loss: 0.23107982
-INFO:root:Epoch 11/100 - Time: 0.04 seconds
+INFO:root:Epoch 11/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23436090, Validation Loss: 0.23166798
-INFO:root:Epoch 12/100 - Time: 0.03 seconds
+INFO:root:Epoch 12/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23491322, Validation Loss: 0.23090763
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.01 and momentum = 8e-06
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.04 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23573613, Validation Loss: 0.22994685
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23521639, Validation Loss: 0.23066844
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23514846, Validation Loss: 0.22852571
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23487020, Validation Loss: 0.23257546
 INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23611239, Validation Loss: 0.23057506
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23430541, Validation Loss: 0.23439340
-INFO:root:Epoch 7/100 - Time: 0.04 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23502983, Validation Loss: 0.22942093
-INFO:root:Epoch 8/100 - Time: 0.03 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23505360, Validation Loss: 0.22860995
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23494557, Validation Loss: 0.22972488
-INFO:root:Epoch 10/100 - Time: 0.04 seconds
+INFO:root:Epoch 10/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23415242, Validation Loss: 0.23108329
-INFO:root:Epoch 11/100 - Time: 0.03 seconds
+INFO:root:Epoch 11/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23436463, Validation Loss: 0.23167379
-INFO:root:Epoch 12/100 - Time: 0.03 seconds
+INFO:root:Epoch 12/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23491751, Validation Loss: 0.23091315
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.001 and momentum = 0.9
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.04 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 1340217995906625673836704386882930434383771863754321170043764736.00000000, Validation Loss: 312106412771271408552063548317732744936201386884558538517960982528.00000000
-INFO:root:Epoch 2/100 - Time: 0.05 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 29834709103463748820688674500018625022062129740564488888693428465776997988526059674835015775458422483977508491724457205354498883584.00000000, Validation Loss: 6947827937541895806682086936298013200012661289801741385649367847122046920040888448828775888397562893496937746009031998984961484914688.00000000
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.03 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.04 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.05 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Early stopping: No improvement
-INFO:root:Start tuning hyperparameters : learning_rate = 0.001 and momentum = 0.95
-INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.04 seconds
-INFO:root:[===========================================================] Training Loss: 884254046464353993522248700986490445559860454335781708522481254400.00000000, Validation Loss: 217351065352709417541835542472111621817602034594283017978897168859136.00000000
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
-INFO:root:[===========================================================] Training Loss: 14139696184456320087860892109287114141440549884730736664027359194149842956548872328765076655923208022634785984464130281984454403429498880.00000000, Validation Loss: 3475560040401931343135698884618034311127193314365348038551874999314546978442355551066290788134034921501032654220047950027635667588431740928.00000000
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.04 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.03 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.04 seconds
-INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.03 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 9/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
+INFO:root:Start tuning hyperparameters : learning_rate = 0.001 and momentum = 0.95
+INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: 884254046464353993522248700986490445559860454335781708522481254400.00000000, Validation Loss: 217351065352709417541835542472111621817602034594283017978897168859136.00000000
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: 14139696184456320087860892109287114141440549884730736664027359194149842956548872328765076655923208022634785984464130281984454403429498880.00000000, Validation Loss: 3475560040401931343135698884618034311127193314365348038551874999314546978442355551066290788134034921501032654220047950027635667588431740928.00000000
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
+INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
+INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.001 and momentum = 0.8
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.04 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 1839616016655382366784725001605930924118300305839450226688.00000000, Validation Loss: 380743523985932996973377447415034485388828557659638612361216.00000000
-INFO:root:Epoch 2/100 - Time: 0.05 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 46976425933164237439216852917356565800693007358540669871112645255217821251521160463202501591518871895334740812032376832.00000000, Validation Loss: 9722664834466769490618876429471134445123103128224490874648503486412658260170705210789723533142719682251995981899253153792.00000000
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.04 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.04 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.04 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.04 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.05 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.05 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.001 and momentum = 8e-05
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.04 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23626925, Validation Loss: 0.22865961
-INFO:root:Epoch 2/100 - Time: 0.04 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23192327, Validation Loss: 0.22885678
-INFO:root:Epoch 3/100 - Time: 0.03 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23192560, Validation Loss: 0.22873963
-INFO:root:Epoch 4/100 - Time: 0.04 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23190364, Validation Loss: 0.22927020
-INFO:root:Epoch 5/100 - Time: 0.03 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23197520, Validation Loss: 0.22884083
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23201246, Validation Loss: 0.22886356
-INFO:root:Epoch 7/100 - Time: 0.06 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23196968, Validation Loss: 0.22918450
-INFO:root:Epoch 8/100 - Time: 0.03 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23196601, Validation Loss: 0.22877845
-INFO:root:Epoch 9/100 - Time: 0.05 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23196980, Validation Loss: 0.22909860
 INFO:root:Epoch 10/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.23192178, Validation Loss: 0.22931749
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.001 and momentum = 8e-06
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.06 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23627063, Validation Loss: 0.22866243
-INFO:root:Epoch 2/100 - Time: 0.05 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23192315, Validation Loss: 0.22886174
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23192573, Validation Loss: 0.22874022
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23190352, Validation Loss: 0.22927520
-INFO:root:Epoch 5/100 - Time: 0.03 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23197523, Validation Loss: 0.22884674
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23201256, Validation Loss: 0.22886923
-INFO:root:Epoch 7/100 - Time: 0.05 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23196972, Validation Loss: 0.22919046
-INFO:root:Epoch 8/100 - Time: 0.04 seconds
+INFO:root:Epoch 8/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.23196618, Validation Loss: 0.22878186
-INFO:root:Epoch 9/100 - Time: 0.04 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23196979, Validation Loss: 0.22910662
-INFO:root:Epoch 10/100 - Time: 0.05 seconds
+INFO:root:Epoch 10/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23192209, Validation Loss: 0.22931942
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.0001 and momentum = 0.9
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.04 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 25015447582672981864019277403142052214769550000424502026823532544.00000000, Validation Loss: 5626475504807497797043411144484173275173180204089753467807818842112.00000000
-INFO:root:Epoch 2/100 - Time: 0.05 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 54943342790514737443959613583433371638928588271626236144301532762035869461121620302187390735211028083750181499134127496156026800963584.00000000, Validation Loss: 12357858932622006862873547159231071412880122293009503264085475984638492082438247913674023574656087955439485370596768599997016958006460416.00000000
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.04 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.04 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.04 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.04 seconds
+INFO:root:Epoch 8/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.04 seconds
+INFO:root:Epoch 9/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.0001 and momentum = 0.95
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.06 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 15149449970465025584425366746068754995951982224796464609962183622656.00000000, Validation Loss: 3597192251462149330789658625511485536268903011714828861787354406322176.00000000
-INFO:root:Epoch 2/100 - Time: 0.04 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 22426967359516779349880360230426405811541477498738880315814865389075344513466841385248972139952364522476624682821048049255239257148708880384.00000000, Validation Loss: 5325217309323339405471066889942019378050335860900640727702101956552711861256817693761411423523075465282544073590465804378934532751557409112064.00000000
-INFO:root:Epoch 3/100 - Time: 0.05 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.04 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.04 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.04 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.04 seconds
+INFO:root:Epoch 7/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.03 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.05 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.0001 and momentum = 0.8
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.05 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 40831785414823599277470367504534479797649739854186104750080.00000000, Validation Loss: 8160549240697566552465550213271149391753363261864835205300224.00000000
-INFO:root:Epoch 2/100 - Time: 0.05 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 115982392078459605377036727258908643288744144413305490764680859333638329596050460433678645201608170811546315107433466298368.00000000, Validation Loss: 23179981281605931366664402846229873723771910350628386540059710245434157249478134845600162503458188390292429298647855448195072.00000000
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.05 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.05 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.04 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.04 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.05 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.04 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.0001 and momentum = 8e-05
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.03 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.27404194, Validation Loss: 0.22987929
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23187589, Validation Loss: 0.22888490
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23181290, Validation Loss: 0.22874832
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23182921, Validation Loss: 0.22888391
-INFO:root:Epoch 5/100 - Time: 0.04 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23182383, Validation Loss: 0.22886486
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23189979, Validation Loss: 0.22885627
-INFO:root:Epoch 7/100 - Time: 0.04 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23184358, Validation Loss: 0.22887232
 INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23183626, Validation Loss: 0.22885140
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23188713, Validation Loss: 0.22890755
-INFO:root:Epoch 10/100 - Time: 0.03 seconds
+INFO:root:Epoch 10/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23184191, Validation Loss: 0.22893812
-INFO:root:Epoch 11/100 - Time: 0.04 seconds
+INFO:root:Epoch 11/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23184586, Validation Loss: 0.22891393
-INFO:root:Epoch 12/100 - Time: 0.03 seconds
+INFO:root:Epoch 12/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23189578, Validation Loss: 0.22896750
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 0.0001 and momentum = 8e-06
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.04 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.27415671, Validation Loss: 0.22997766
 INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23189232, Validation Loss: 0.22893223
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23181521, Validation Loss: 0.22877919
-INFO:root:Epoch 4/100 - Time: 0.04 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23182384, Validation Loss: 0.22892145
-INFO:root:Epoch 5/100 - Time: 0.03 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23181629, Validation Loss: 0.22891635
-INFO:root:Epoch 6/100 - Time: 0.04 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23189736, Validation Loss: 0.22890550
 INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23184253, Validation Loss: 0.22891347
-INFO:root:Epoch 8/100 - Time: 0.04 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23183219, Validation Loss: 0.22889428
 INFO:root:Epoch 9/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.23188074, Validation Loss: 0.22895936
-INFO:root:Epoch 10/100 - Time: 0.03 seconds
+INFO:root:Epoch 10/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23184278, Validation Loss: 0.22897555
-INFO:root:Epoch 11/100 - Time: 0.03 seconds
+INFO:root:Epoch 11/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23183933, Validation Loss: 0.22896007
-INFO:root:Epoch 12/100 - Time: 0.03 seconds
+INFO:root:Epoch 12/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23188837, Validation Loss: 0.22902505
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 1e-05 and momentum = 0.9
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.06 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 5392134437647092865104645903906341772136941929720658909819043840.00000000, Validation Loss: 1210966649449605553681286482109101011129321216387862870318204846080.00000000
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 24202033204825168819361239054343432654235177030006939629796740267472898830075818226096349919673419893416303249859761691629712805199872.00000000, Validation Loss: 5435297542897315588056657332626195412274084717670860715169629272717628559433370481354258556387784953631366883984384557844158548935704576.00000000
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.04 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.03 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.04 seconds
+INFO:root:Epoch 8/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.05 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 1e-05 and momentum = 0.95
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.04 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 3205218547792338145980928272442547939023074384092317559031806820352.00000000, Validation Loss: 759830938146749589379302461355605124563500683678664973951479261954048.00000000
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 9530754335485485752406730340276039878434987970704701358181226117549643747523988062380470560246000159723548632059707387285165074267682897920.00000000, Validation Loss: 2259366061938600690609878715167891766469411972971560743619070465673572942976476739511961675840543397470372339898403949991593876943978241196032.00000000
-INFO:root:Epoch 3/100 - Time: 0.03 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.03 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.04 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.03 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 1e-05 and momentum = 0.8
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.03 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 9163028030187407143224053942045895081660914185871384641536.00000000, Validation Loss: 1829110637132314119521681655641886185704049170343781145247744.00000000
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 55188961055011487302758059531459072731595054967647067672465981779718968328022364242409388482718352546655225660456505966592.00000000, Validation Loss: 11016741996797963134772725782118302965628006962025199544581083729149855366525080147978819400367431181144181643932825569722368.00000000
-INFO:root:Epoch 3/100 - Time: 0.05 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.04 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.03 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.03 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.04 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 1e-05 and momentum = 8e-05
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.03 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.41148110, Validation Loss: 0.37441603
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.33797223, Validation Loss: 0.31498408
 INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.29183873, Validation Loss: 0.27790759
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.26410208, Validation Loss: 0.25591421
-INFO:root:Epoch 5/100 - Time: 0.03 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24845365, Validation Loss: 0.24339815
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24009985, Validation Loss: 0.23646785
 INFO:root:Epoch 7/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.23562492, Validation Loss: 0.23271249
-INFO:root:Epoch 8/100 - Time: 0.03 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23342274, Validation Loss: 0.23072205
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23246460, Validation Loss: 0.22969015
-INFO:root:Epoch 10/100 - Time: 0.03 seconds
+INFO:root:Epoch 10/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23199922, Validation Loss: 0.22916069
-INFO:root:Epoch 11/100 - Time: 0.03 seconds
+INFO:root:Epoch 11/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23183710, Validation Loss: 0.22890127
-INFO:root:Epoch 12/100 - Time: 0.03 seconds
+INFO:root:Epoch 12/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23189558, Validation Loss: 0.22878149
 INFO:root:Epoch 13/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23190167, Validation Loss: 0.22872938
-INFO:root:Epoch 14/100 - Time: 0.03 seconds
+INFO:root:Epoch 14/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23197181, Validation Loss: 0.22871114
-INFO:root:Epoch 15/100 - Time: 0.03 seconds
+INFO:root:Epoch 15/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23200802, Validation Loss: 0.22870896
 INFO:root:Epoch 16/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23201122, Validation Loss: 0.22871747
-INFO:root:Epoch 17/100 - Time: 0.04 seconds
+INFO:root:Epoch 17/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23214983, Validation Loss: 0.22872889
 INFO:root:Epoch 18/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23219790, Validation Loss: 0.22873891
-INFO:root:Epoch 19/100 - Time: 0.03 seconds
+INFO:root:Epoch 19/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23227217, Validation Loss: 0.22874795
-INFO:root:Epoch 20/100 - Time: 0.03 seconds
+INFO:root:Epoch 20/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23217449, Validation Loss: 0.22875702
-INFO:root:Epoch 21/100 - Time: 0.04 seconds
+INFO:root:Epoch 21/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23228785, Validation Loss: 0.22876226
-INFO:root:Epoch 22/100 - Time: 0.04 seconds
+INFO:root:Epoch 22/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23225378, Validation Loss: 0.22877119
-INFO:root:Epoch 23/100 - Time: 0.03 seconds
+INFO:root:Epoch 23/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23236336, Validation Loss: 0.22877539
 INFO:root:Epoch 24/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23236302, Validation Loss: 0.22878189
@@ -568,478 +568,478 @@ INFO:root:Start tuning hyperparameters : learning_rate = 1e-05 and momentum = 8e
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
 INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.41161231, Validation Loss: 0.37478625
-INFO:root:Epoch 2/100 - Time: 0.05 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.33866341, Validation Loss: 0.31604032
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.29315253, Validation Loss: 0.27953505
-INFO:root:Epoch 4/100 - Time: 0.04 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.26579279, Validation Loss: 0.25783134
-INFO:root:Epoch 5/100 - Time: 0.03 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.25021847, Validation Loss: 0.24533943
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24173672, Validation Loss: 0.23825722
-INFO:root:Epoch 7/100 - Time: 0.03 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23701388, Validation Loss: 0.23426511
 INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23451663, Validation Loss: 0.23201906
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23326380, Validation Loss: 0.23074990
-INFO:root:Epoch 10/100 - Time: 0.03 seconds
+INFO:root:Epoch 10/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23256336, Validation Loss: 0.23001053
 INFO:root:Epoch 11/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23217712, Validation Loss: 0.22957911
-INFO:root:Epoch 12/100 - Time: 0.04 seconds
+INFO:root:Epoch 12/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23205217, Validation Loss: 0.22932341
 INFO:root:Epoch 13/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23191506, Validation Loss: 0.22916544
-INFO:root:Epoch 14/100 - Time: 0.03 seconds
+INFO:root:Epoch 14/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23189780, Validation Loss: 0.22905912
 INFO:root:Epoch 15/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23184268, Validation Loss: 0.22899151
-INFO:root:Epoch 16/100 - Time: 0.04 seconds
+INFO:root:Epoch 16/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23176723, Validation Loss: 0.22894988
 INFO:root:Epoch 17/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23185558, Validation Loss: 0.22892187
-INFO:root:Epoch 18/100 - Time: 0.04 seconds
+INFO:root:Epoch 18/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23186703, Validation Loss: 0.22890081
-INFO:root:Epoch 19/100 - Time: 0.03 seconds
+INFO:root:Epoch 19/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23189553, Validation Loss: 0.22888754
-INFO:root:Epoch 20/100 - Time: 0.03 seconds
+INFO:root:Epoch 20/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23178863, Validation Loss: 0.22887466
-INFO:root:Epoch 21/100 - Time: 0.03 seconds
+INFO:root:Epoch 21/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23185994, Validation Loss: 0.22886613
 INFO:root:Epoch 22/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23182102, Validation Loss: 0.22886031
-INFO:root:Epoch 23/100 - Time: 0.03 seconds
+INFO:root:Epoch 23/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23189744, Validation Loss: 0.22885474
-INFO:root:Epoch 24/100 - Time: 0.03 seconds
+INFO:root:Epoch 24/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23188909, Validation Loss: 0.22885139
-INFO:root:Epoch 25/100 - Time: 0.03 seconds
+INFO:root:Epoch 25/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23186538, Validation Loss: 0.22884982
-INFO:root:Epoch 26/100 - Time: 0.03 seconds
+INFO:root:Epoch 26/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23186756, Validation Loss: 0.22884748
-INFO:root:Epoch 27/100 - Time: 0.03 seconds
+INFO:root:Epoch 27/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23187853, Validation Loss: 0.22884880
-INFO:root:Epoch 28/100 - Time: 0.03 seconds
+INFO:root:Epoch 28/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23185586, Validation Loss: 0.22884847
-INFO:root:Epoch 29/100 - Time: 0.04 seconds
+INFO:root:Epoch 29/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.23181644, Validation Loss: 0.22884927
 INFO:root:Epoch 30/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.23185242, Validation Loss: 0.22885036
 INFO:root:Epoch 31/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.23186024, Validation Loss: 0.22884863
-INFO:root:Epoch 32/100 - Time: 0.04 seconds
+INFO:root:Epoch 32/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.23187447, Validation Loss: 0.22884790
-INFO:root:Epoch 33/100 - Time: 0.02 seconds
+INFO:root:Epoch 33/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.23182070, Validation Loss: 0.22884599
-INFO:root:Epoch 34/100 - Time: 0.03 seconds
+INFO:root:Epoch 34/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23184408, Validation Loss: 0.22884375
-INFO:root:Epoch 35/100 - Time: 0.03 seconds
+INFO:root:Epoch 35/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23187437, Validation Loss: 0.22884676
-INFO:root:Epoch 36/100 - Time: 0.04 seconds
+INFO:root:Epoch 36/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23190035, Validation Loss: 0.22884633
-INFO:root:Epoch 37/100 - Time: 0.03 seconds
+INFO:root:Epoch 37/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23184955, Validation Loss: 0.22884718
 INFO:root:Epoch 38/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23188291, Validation Loss: 0.22884839
-INFO:root:Epoch 39/100 - Time: 0.04 seconds
+INFO:root:Epoch 39/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23182203, Validation Loss: 0.22884951
 INFO:root:Epoch 40/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23185115, Validation Loss: 0.22884979
-INFO:root:Epoch 41/100 - Time: 0.03 seconds
+INFO:root:Epoch 41/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23183447, Validation Loss: 0.22885054
-INFO:root:Epoch 42/100 - Time: 0.03 seconds
+INFO:root:Epoch 42/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23189860, Validation Loss: 0.22885143
 INFO:root:Epoch 43/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23185600, Validation Loss: 0.22885046
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 1e-06 and momentum = 0.9
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.03 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 584241452576044786603023113495731078564499956909663944966144000.00000000, Validation Loss: 131193141333221139980397659149418677485624986665310886893442826240.00000000
-INFO:root:Epoch 2/100 - Time: 0.04 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 2827122387810951640097364251501642914555241319855544656644116366581829407079456017011584430871432988857462885542418983867240278917120.00000000, Validation Loss: 634838670476090032933212470749511389319338916994738673585799834890186374107014621967186920740970434801408970278222091433306505357557760.00000000
-INFO:root:Epoch 3/100 - Time: 0.03 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.04 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.03 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.04 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 1e-06 and momentum = 0.95
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.04 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 346584617645217555358185042386430395851749041774114380061029171200.00000000, Validation Loss: 82150427857036148993077293995033497252426365552200476048143140519936.00000000
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 1108938892484595074526162412523358269020946709542505256577724658320164027283144115630577786837903900761910831971842908584167260179537068032.00000000, Validation Loss: 262850108882131204696358572348600458953820288427062387415897672160057190799411501590521650289187463778407692558562558446629521145568363020288.00000000
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.05 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 7/100 - Time: 0.04 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 1e-06 and momentum = 0.8
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.05 seconds
+INFO:root:Epoch 1/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 997206718868374711126466676691951598975479558881847279616.00000000, Validation Loss: 199044238734122273247663277592677985580273950922827985059840.00000000
-INFO:root:Epoch 2/100 - Time: 0.05 seconds
+INFO:root:Epoch 2/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 6502209264117483692038326482386766166619289248878185038379818365645886419423589247818715569259321645364623454120794128384.00000000, Validation Loss: 1297852560134075634517445566533854905811200033854922990758560380318975831168547217577555889827973769777025686537185496399872.00000000
-INFO:root:Epoch 3/100 - Time: 0.03 seconds
+INFO:root:Epoch 3/100 - Time: 0.04 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 4/100 - Time: 0.04 seconds
+INFO:root:Epoch 4/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 5/100 - Time: 0.02 seconds
+INFO:root:Epoch 5/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 8/100 - Time: 0.03 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
-INFO:root:Epoch 9/100 - Time: 0.04 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: nan, Validation Loss: nan
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 1e-06 and momentum = 8e-05
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.04 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.45403705, Validation Loss: 0.45453784
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.44332054, Validation Loss: 0.44400155
-INFO:root:Epoch 3/100 - Time: 0.03 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.43313289, Validation Loss: 0.43377787
-INFO:root:Epoch 4/100 - Time: 0.03 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.42308403, Validation Loss: 0.42386221
 INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.41333409, Validation Loss: 0.41424948
-INFO:root:Epoch 6/100 - Time: 0.03 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.40416246, Validation Loss: 0.40493387
-INFO:root:Epoch 7/100 - Time: 0.03 seconds
+INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.39501619, Validation Loss: 0.39591030
-INFO:root:Epoch 8/100 - Time: 0.03 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.38622084, Validation Loss: 0.38717438
-INFO:root:Epoch 9/100 - Time: 0.03 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.37773658, Validation Loss: 0.37872179
-INFO:root:Epoch 10/100 - Time: 0.03 seconds
+INFO:root:Epoch 10/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.36958398, Validation Loss: 0.37054715
-INFO:root:Epoch 11/100 - Time: 0.04 seconds
+INFO:root:Epoch 11/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.36163458, Validation Loss: 0.36264694
 INFO:root:Epoch 12/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.35397360, Validation Loss: 0.35501700
-INFO:root:Epoch 13/100 - Time: 0.03 seconds
+INFO:root:Epoch 13/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.34654910, Validation Loss: 0.34765310
-INFO:root:Epoch 14/100 - Time: 0.03 seconds
+INFO:root:Epoch 14/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.33956119, Validation Loss: 0.34055046
-INFO:root:Epoch 15/100 - Time: 0.03 seconds
+INFO:root:Epoch 15/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.33273664, Validation Loss: 0.33370619
-INFO:root:Epoch 16/100 - Time: 0.04 seconds
+INFO:root:Epoch 16/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.32608516, Validation Loss: 0.32711625
-INFO:root:Epoch 17/100 - Time: 0.04 seconds
+INFO:root:Epoch 17/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.31985725, Validation Loss: 0.32077685
-INFO:root:Epoch 18/100 - Time: 0.03 seconds
+INFO:root:Epoch 18/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.31385179, Validation Loss: 0.31468439
-INFO:root:Epoch 19/100 - Time: 0.03 seconds
+INFO:root:Epoch 19/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.30801236, Validation Loss: 0.30883560
-INFO:root:Epoch 20/100 - Time: 0.04 seconds
+INFO:root:Epoch 20/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.30246159, Validation Loss: 0.30322638
-INFO:root:Epoch 21/100 - Time: 0.05 seconds
+INFO:root:Epoch 21/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.29718928, Validation Loss: 0.29785401
-INFO:root:Epoch 22/100 - Time: 0.04 seconds
+INFO:root:Epoch 22/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.29209553, Validation Loss: 0.29271447
-INFO:root:Epoch 23/100 - Time: 0.03 seconds
+INFO:root:Epoch 23/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.28727914, Validation Loss: 0.28780480
-INFO:root:Epoch 24/100 - Time: 0.03 seconds
+INFO:root:Epoch 24/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.28269522, Validation Loss: 0.28312130
-INFO:root:Epoch 25/100 - Time: 0.04 seconds
+INFO:root:Epoch 25/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.27823471, Validation Loss: 0.27866055
-INFO:root:Epoch 26/100 - Time: 0.03 seconds
+INFO:root:Epoch 26/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.27411753, Validation Loss: 0.27441943
-INFO:root:Epoch 27/100 - Time: 0.04 seconds
+INFO:root:Epoch 27/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.27021026, Validation Loss: 0.27039444
-INFO:root:Epoch 28/100 - Time: 0.04 seconds
+INFO:root:Epoch 28/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.26648370, Validation Loss: 0.26658193
-INFO:root:Epoch 29/100 - Time: 0.03 seconds
+INFO:root:Epoch 29/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.26303137, Validation Loss: 0.26297857
-INFO:root:Epoch 30/100 - Time: 0.05 seconds
+INFO:root:Epoch 30/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.25973965, Validation Loss: 0.25958046
-INFO:root:Epoch 31/100 - Time: 0.04 seconds
+INFO:root:Epoch 31/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.25669066, Validation Loss: 0.25638402
-INFO:root:Epoch 32/100 - Time: 0.04 seconds
+INFO:root:Epoch 32/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.25380841, Validation Loss: 0.25338561
-INFO:root:Epoch 33/100 - Time: 0.03 seconds
+INFO:root:Epoch 33/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.25110508, Validation Loss: 0.25058162
-INFO:root:Epoch 34/100 - Time: 0.03 seconds
+INFO:root:Epoch 34/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24867888, Validation Loss: 0.24796807
-INFO:root:Epoch 35/100 - Time: 0.05 seconds
+INFO:root:Epoch 35/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24640754, Validation Loss: 0.24554135
-INFO:root:Epoch 36/100 - Time: 0.04 seconds
+INFO:root:Epoch 36/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24430344, Validation Loss: 0.24329717
 INFO:root:Epoch 37/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.24238746, Validation Loss: 0.24123168
-INFO:root:Epoch 38/100 - Time: 0.03 seconds
+INFO:root:Epoch 38/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24065249, Validation Loss: 0.23934063
-INFO:root:Epoch 39/100 - Time: 0.03 seconds
+INFO:root:Epoch 39/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23902604, Validation Loss: 0.23761998
 INFO:root:Epoch 40/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23770547, Validation Loss: 0.23606564
-INFO:root:Epoch 41/100 - Time: 0.04 seconds
+INFO:root:Epoch 41/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23643083, Validation Loss: 0.23467330
-INFO:root:Epoch 42/100 - Time: 0.03 seconds
+INFO:root:Epoch 42/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23539616, Validation Loss: 0.23343857
-INFO:root:Epoch 43/100 - Time: 0.03 seconds
+INFO:root:Epoch 43/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23445923, Validation Loss: 0.23235736
-INFO:root:Epoch 44/100 - Time: 0.03 seconds
+INFO:root:Epoch 44/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23368021, Validation Loss: 0.23142532
-INFO:root:Epoch 45/100 - Time: 0.04 seconds
+INFO:root:Epoch 45/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23309913, Validation Loss: 0.23063815
-INFO:root:Epoch 46/100 - Time: 0.03 seconds
+INFO:root:Epoch 46/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23258104, Validation Loss: 0.22999153
-INFO:root:Epoch 47/100 - Time: 0.04 seconds
+INFO:root:Epoch 47/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23216409, Validation Loss: 0.22948117
 INFO:root:Epoch 48/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23197854, Validation Loss: 0.22910290
-INFO:root:Epoch 49/100 - Time: 0.03 seconds
+INFO:root:Epoch 49/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23192170, Validation Loss: 0.22885251
 INFO:root:Epoch 50/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23185882, Validation Loss: 0.22872587
-INFO:root:Epoch 51/100 - Time: 0.05 seconds
+INFO:root:Epoch 51/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23197528, Validation Loss: 0.22871890
-INFO:root:Epoch 52/100 - Time: 0.04 seconds
+INFO:root:Epoch 52/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23234253, Validation Loss: 0.22882754
-INFO:root:Epoch 53/100 - Time: 0.04 seconds
+INFO:root:Epoch 53/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23262129, Validation Loss: 0.22904794
-INFO:root:Epoch 54/100 - Time: 0.04 seconds
+INFO:root:Epoch 54/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23313317, Validation Loss: 0.22937621
-INFO:root:Epoch 55/100 - Time: 0.05 seconds
+INFO:root:Epoch 55/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23366618, Validation Loss: 0.22980865
 INFO:root:Epoch 56/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23436064, Validation Loss: 0.23034158
-INFO:root:Epoch 57/100 - Time: 0.04 seconds
+INFO:root:Epoch 57/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23514693, Validation Loss: 0.23097149
 INFO:root:Epoch 58/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23599692, Validation Loss: 0.23169505
-INFO:root:Epoch 59/100 - Time: 0.04 seconds
+INFO:root:Epoch 59/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.23689147, Validation Loss: 0.23250889
-INFO:root:Epoch 60/100 - Time: 0.04 seconds
+INFO:root:Epoch 60/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23790445, Validation Loss: 0.23340983
 INFO:root:Early stopping: No improvement
 INFO:root:Start tuning hyperparameters : learning_rate = 1e-06 and momentum = 8e-06
 INFO:root:X train size : 15968, y train size : 15968, X validation size : 3422, y validation size : 3422
-INFO:root:Epoch 1/100 - Time: 0.03 seconds
+INFO:root:Epoch 1/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.45405319, Validation Loss: 0.45458658
-INFO:root:Epoch 2/100 - Time: 0.03 seconds
+INFO:root:Epoch 2/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.44343148, Validation Loss: 0.44419192
-INFO:root:Epoch 3/100 - Time: 0.04 seconds
+INFO:root:Epoch 3/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.43342758, Validation Loss: 0.43419616
-INFO:root:Epoch 4/100 - Time: 0.04 seconds
+INFO:root:Epoch 4/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.42364465, Validation Loss: 0.42458891
-INFO:root:Epoch 5/100 - Time: 0.04 seconds
+INFO:root:Epoch 5/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.41423639, Validation Loss: 0.41535905
-INFO:root:Epoch 6/100 - Time: 0.04 seconds
+INFO:root:Epoch 6/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.40547708, Validation Loss: 0.40649449
 INFO:root:Epoch 7/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.39680703, Validation Loss: 0.39798412
-INFO:root:Epoch 8/100 - Time: 0.04 seconds
+INFO:root:Epoch 8/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.38854502, Validation Loss: 0.38981780
-INFO:root:Epoch 9/100 - Time: 0.05 seconds
+INFO:root:Epoch 9/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.38064462, Validation Loss: 0.38198551
-INFO:root:Epoch 10/100 - Time: 0.05 seconds
+INFO:root:Epoch 10/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.37312429, Validation Loss: 0.37447573
-INFO:root:Epoch 11/100 - Time: 0.04 seconds
+INFO:root:Epoch 11/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.36584428, Validation Loss: 0.36727953
-INFO:root:Epoch 12/100 - Time: 0.05 seconds
+INFO:root:Epoch 12/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.35888501, Validation Loss: 0.36038713
-INFO:root:Epoch 13/100 - Time: 0.03 seconds
+INFO:root:Epoch 13/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.35219095, Validation Loss: 0.35378865
-INFO:root:Epoch 14/100 - Time: 0.03 seconds
+INFO:root:Epoch 14/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.34596024, Validation Loss: 0.34747341
-INFO:root:Epoch 15/100 - Time: 0.04 seconds
+INFO:root:Epoch 15/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.33990506, Validation Loss: 0.34143348
-INFO:root:Epoch 16/100 - Time: 0.04 seconds
+INFO:root:Epoch 16/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.33403569, Validation Loss: 0.33565934
-INFO:root:Epoch 17/100 - Time: 0.05 seconds
+INFO:root:Epoch 17/100 - Time: 0.03 seconds
 INFO:root:[===========================================================] Training Loss: 0.32859199, Validation Loss: 0.33014186
-INFO:root:Epoch 18/100 - Time: 0.04 seconds
+INFO:root:Epoch 18/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.32337239, Validation Loss: 0.32487224
-INFO:root:Epoch 19/100 - Time: 0.04 seconds
+INFO:root:Epoch 19/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.31831202, Validation Loss: 0.31984225
-INFO:root:Epoch 20/100 - Time: 0.04 seconds
+INFO:root:Epoch 20/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.31353991, Validation Loss: 0.31504254
-INFO:root:Epoch 21/100 - Time: 0.04 seconds
+INFO:root:Epoch 21/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.30901599, Validation Loss: 0.31046585
-INFO:root:Epoch 22/100 - Time: 0.05 seconds
+INFO:root:Epoch 22/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.30466063, Validation Loss: 0.30610319
-INFO:root:Epoch 23/100 - Time: 0.04 seconds
+INFO:root:Epoch 23/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.30054638, Validation Loss: 0.30194725
-INFO:root:Epoch 24/100 - Time: 0.03 seconds
+INFO:root:Epoch 24/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.29664871, Validation Loss: 0.29798978
-INFO:root:Epoch 25/100 - Time: 0.03 seconds
+INFO:root:Epoch 25/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.29282397, Validation Loss: 0.29422310
-INFO:root:Epoch 26/100 - Time: 0.03 seconds
+INFO:root:Epoch 26/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.28931174, Validation Loss: 0.29064024
 INFO:root:Epoch 27/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.28596608, Validation Loss: 0.28723381
-INFO:root:Epoch 28/100 - Time: 0.04 seconds
+INFO:root:Epoch 28/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.28275918, Validation Loss: 0.28399646
-INFO:root:Epoch 29/100 - Time: 0.04 seconds
+INFO:root:Epoch 29/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.27978203, Validation Loss: 0.28092154
-INFO:root:Epoch 30/100 - Time: 0.04 seconds
+INFO:root:Epoch 30/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.27690257, Validation Loss: 0.27800179
-INFO:root:Epoch 31/100 - Time: 0.05 seconds
+INFO:root:Epoch 31/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.27422854, Validation Loss: 0.27523066
-INFO:root:Epoch 32/100 - Time: 0.04 seconds
+INFO:root:Epoch 32/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.27164562, Validation Loss: 0.27260184
-INFO:root:Epoch 33/100 - Time: 0.05 seconds
+INFO:root:Epoch 33/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.26918539, Validation Loss: 0.27010940
-INFO:root:Epoch 34/100 - Time: 0.03 seconds
+INFO:root:Epoch 34/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.26694838, Validation Loss: 0.26774697
-INFO:root:Epoch 35/100 - Time: 0.04 seconds
+INFO:root:Epoch 35/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.26476999, Validation Loss: 0.26550926
-INFO:root:Epoch 36/100 - Time: 0.04 seconds
+INFO:root:Epoch 36/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.26271249, Validation Loss: 0.26338999
-INFO:root:Epoch 37/100 - Time: 0.03 seconds
+INFO:root:Epoch 37/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.26079843, Validation Loss: 0.26138400
-INFO:root:Epoch 38/100 - Time: 0.03 seconds
+INFO:root:Epoch 38/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.25897398, Validation Loss: 0.25948562
-INFO:root:Epoch 39/100 - Time: 0.03 seconds
+INFO:root:Epoch 39/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.25720627, Validation Loss: 0.25768991
-INFO:root:Epoch 40/100 - Time: 0.05 seconds
+INFO:root:Epoch 40/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.25569330, Validation Loss: 0.25599223
-INFO:root:Epoch 41/100 - Time: 0.05 seconds
+INFO:root:Epoch 41/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.25408705, Validation Loss: 0.25438763
-INFO:root:Epoch 42/100 - Time: 0.05 seconds
+INFO:root:Epoch 42/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.25271077, Validation Loss: 0.25287112
 INFO:root:Epoch 43/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.25135639, Validation Loss: 0.25143890
-INFO:root:Epoch 44/100 - Time: 0.06 seconds
+INFO:root:Epoch 44/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.25004986, Validation Loss: 0.25008656
-INFO:root:Epoch 45/100 - Time: 0.03 seconds
+INFO:root:Epoch 45/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24889054, Validation Loss: 0.24881010
-INFO:root:Epoch 46/100 - Time: 0.04 seconds
+INFO:root:Epoch 46/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24778168, Validation Loss: 0.24760544
-INFO:root:Epoch 47/100 - Time: 0.05 seconds
+INFO:root:Epoch 47/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24664114, Validation Loss: 0.24646873
-INFO:root:Epoch 48/100 - Time: 0.05 seconds
+INFO:root:Epoch 48/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24568993, Validation Loss: 0.24539672
-INFO:root:Epoch 49/100 - Time: 0.04 seconds
+INFO:root:Epoch 49/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24478731, Validation Loss: 0.24438613
-INFO:root:Epoch 50/100 - Time: 0.03 seconds
+INFO:root:Epoch 50/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24380222, Validation Loss: 0.24343360
-INFO:root:Epoch 51/100 - Time: 0.03 seconds
+INFO:root:Epoch 51/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24294138, Validation Loss: 0.24253597
-INFO:root:Epoch 52/100 - Time: 0.05 seconds
+INFO:root:Epoch 52/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24226537, Validation Loss: 0.24169036
-INFO:root:Epoch 53/100 - Time: 0.03 seconds
+INFO:root:Epoch 53/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24151493, Validation Loss: 0.24089376
-INFO:root:Epoch 54/100 - Time: 0.03 seconds
+INFO:root:Epoch 54/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24086024, Validation Loss: 0.24014363
-INFO:root:Epoch 55/100 - Time: 0.04 seconds
+INFO:root:Epoch 55/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.24021186, Validation Loss: 0.23943746
-INFO:root:Epoch 56/100 - Time: 0.05 seconds
+INFO:root:Epoch 56/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23966169, Validation Loss: 0.23877283
-INFO:root:Epoch 57/100 - Time: 0.05 seconds
+INFO:root:Epoch 57/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23906225, Validation Loss: 0.23814754
-INFO:root:Epoch 58/100 - Time: 0.04 seconds
+INFO:root:Epoch 58/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23855137, Validation Loss: 0.23755909
-INFO:root:Epoch 59/100 - Time: 0.03 seconds
+INFO:root:Epoch 59/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23807704, Validation Loss: 0.23700565
-INFO:root:Epoch 60/100 - Time: 0.03 seconds
+INFO:root:Epoch 60/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23759091, Validation Loss: 0.23648526
 INFO:root:Epoch 61/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23715304, Validation Loss: 0.23599587
-INFO:root:Epoch 62/100 - Time: 0.04 seconds
+INFO:root:Epoch 62/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23684440, Validation Loss: 0.23553572
-INFO:root:Epoch 63/100 - Time: 0.03 seconds
+INFO:root:Epoch 63/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23640806, Validation Loss: 0.23510328
-INFO:root:Epoch 64/100 - Time: 0.03 seconds
+INFO:root:Epoch 64/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23602763, Validation Loss: 0.23469687
-INFO:root:Epoch 65/100 - Time: 0.03 seconds
+INFO:root:Epoch 65/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23574642, Validation Loss: 0.23431508
 INFO:root:Epoch 66/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23543283, Validation Loss: 0.23395651
-INFO:root:Epoch 67/100 - Time: 0.04 seconds
+INFO:root:Epoch 67/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23518355, Validation Loss: 0.23361971
-INFO:root:Epoch 68/100 - Time: 0.03 seconds
+INFO:root:Epoch 68/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23485529, Validation Loss: 0.23330339
-INFO:root:Epoch 69/100 - Time: 0.04 seconds
+INFO:root:Epoch 69/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23459940, Validation Loss: 0.23300639
-INFO:root:Epoch 70/100 - Time: 0.04 seconds
+INFO:root:Epoch 70/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23442317, Validation Loss: 0.23272763
-INFO:root:Epoch 71/100 - Time: 0.04 seconds
+INFO:root:Epoch 71/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23424064, Validation Loss: 0.23246601
-INFO:root:Epoch 72/100 - Time: 0.05 seconds
+INFO:root:Epoch 72/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23399469, Validation Loss: 0.23222038
-INFO:root:Epoch 73/100 - Time: 0.05 seconds
+INFO:root:Epoch 73/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23388074, Validation Loss: 0.23198997
-INFO:root:Epoch 74/100 - Time: 0.05 seconds
+INFO:root:Epoch 74/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23366587, Validation Loss: 0.23177391
-INFO:root:Epoch 75/100 - Time: 0.05 seconds
+INFO:root:Epoch 75/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23350412, Validation Loss: 0.23157126
-INFO:root:Epoch 76/100 - Time: 0.05 seconds
+INFO:root:Epoch 76/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23336473, Validation Loss: 0.23138114
-INFO:root:Epoch 77/100 - Time: 0.03 seconds
+INFO:root:Epoch 77/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23321614, Validation Loss: 0.23120286
-INFO:root:Epoch 78/100 - Time: 0.03 seconds
+INFO:root:Epoch 78/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23304164, Validation Loss: 0.23103578
-INFO:root:Epoch 79/100 - Time: 0.03 seconds
+INFO:root:Epoch 79/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23302079, Validation Loss: 0.23087916
-INFO:root:Epoch 80/100 - Time: 0.03 seconds
+INFO:root:Epoch 80/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23287786, Validation Loss: 0.23073240
-INFO:root:Epoch 81/100 - Time: 0.03 seconds
+INFO:root:Epoch 81/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23275701, Validation Loss: 0.23059489
-INFO:root:Epoch 82/100 - Time: 0.04 seconds
+INFO:root:Epoch 82/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23269092, Validation Loss: 0.23046615
-INFO:root:Epoch 83/100 - Time: 0.03 seconds
+INFO:root:Epoch 83/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23260009, Validation Loss: 0.23034554
-INFO:root:Epoch 84/100 - Time: 0.04 seconds
+INFO:root:Epoch 84/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23252678, Validation Loss: 0.23023260
-INFO:root:Epoch 85/100 - Time: 0.03 seconds
+INFO:root:Epoch 85/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23249203, Validation Loss: 0.23012686
-INFO:root:Epoch 86/100 - Time: 0.04 seconds
+INFO:root:Epoch 86/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23241207, Validation Loss: 0.23002794
-INFO:root:Epoch 87/100 - Time: 0.04 seconds
+INFO:root:Epoch 87/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23227117, Validation Loss: 0.22993533
-INFO:root:Epoch 88/100 - Time: 0.05 seconds
+INFO:root:Epoch 88/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23230776, Validation Loss: 0.22984868
-INFO:root:Epoch 89/100 - Time: 0.05 seconds
+INFO:root:Epoch 89/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23224255, Validation Loss: 0.22976764
-INFO:root:Epoch 90/100 - Time: 0.03 seconds
+INFO:root:Epoch 90/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23218610, Validation Loss: 0.22969190
-INFO:root:Epoch 91/100 - Time: 0.04 seconds
+INFO:root:Epoch 91/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23218180, Validation Loss: 0.22962109
-INFO:root:Epoch 92/100 - Time: 0.05 seconds
+INFO:root:Epoch 92/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23214158, Validation Loss: 0.22955491
-INFO:root:Epoch 93/100 - Time: 0.04 seconds
+INFO:root:Epoch 93/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23207336, Validation Loss: 0.22949302
-INFO:root:Epoch 94/100 - Time: 0.05 seconds
+INFO:root:Epoch 94/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23204444, Validation Loss: 0.22943525
-INFO:root:Epoch 95/100 - Time: 0.06 seconds
+INFO:root:Epoch 95/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23200083, Validation Loss: 0.22938130
-INFO:root:Epoch 96/100 - Time: 0.05 seconds
+INFO:root:Epoch 96/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23194957, Validation Loss: 0.22933098
-INFO:root:Epoch 97/100 - Time: 0.03 seconds
+INFO:root:Epoch 97/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23196671, Validation Loss: 0.22928400
-INFO:root:Epoch 98/100 - Time: 0.06 seconds
+INFO:root:Epoch 98/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23193300, Validation Loss: 0.22924016
-INFO:root:Epoch 99/100 - Time: 0.04 seconds
+INFO:root:Epoch 99/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23192607, Validation Loss: 0.22919926
-INFO:root:Epoch 100/100 - Time: 0.03 seconds
+INFO:root:Epoch 100/100 - Time: 0.02 seconds
 INFO:root:[===========================================================] Training Loss: 0.23194343, Validation Loss: 0.22916118
 INFO:root:No early stopping!
 INFO:root:Final learning rate is 1e-06
@@ -1049,8 +1049,10 @@ INFO:root:Saved weight input hidden is
 INFO:root:[[0.37454009 0.95071428 0.73199392 0.59865848]
  [0.15601861 0.1559945  0.05808358 0.86617614]]
 INFO:root:Saved weight hidden output is 
-INFO:root:[[0.37454009 0.95071428 0.73199392 0.59865848]
- [0.15601861 0.1559945  0.05808358 0.86617614]]
+INFO:root:[[ 0.54647912  0.59254613]
+ [-0.03405141  0.85438339]
+ [ 0.77780675  0.09681266]
+ [ 0.12718905  0.06787804]]
 INFO:root:Saved bias hidden is 
 INFO:root:[[-6.20216184e-08 -6.11676997e-08 -3.60695510e-08 -1.34562689e-08]]
 INFO:root:Saved bias output is 
