@@ -284,7 +284,7 @@ def train_model(path, x_train, y_train):
 
             model = Sequential()
             model.add(Layer(x_train.shape[1]))  # Input layer
-            model.add(Layer(4, activation="sigmoid"))  # Hidden layer
+            model.add(Layer(hidden_neuron, activation="sigmoid"))  # Hidden layer
             model.add(Layer(y_train.shape[1]))  # Output layer
 
             sgd = SGD(learning_rate=lr, momentum=m)
@@ -363,7 +363,7 @@ if __name__ == "__main__":
     # output_neuron = sys.argv[5]
 
     file_name = "15k/ce889_dataCollection_15k.csv"
-    log_name = "activity_hidden4.log"
+    log_name = "activity_hidden8.log"
     input_neuron = 2
     hidden_neuron = 4  # 2/3(in+out)
     output_neuron = 2
