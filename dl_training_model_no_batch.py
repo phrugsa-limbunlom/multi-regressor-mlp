@@ -34,14 +34,6 @@ class Layer:
 
 class Sequential:
     def __init__(self):
-        self.bias_output = None
-        self.weight_hidden_output = None
-        self.bias_hidden = None
-        self.weight_input_hidden = None
-        self.prev_bias_hidden = None
-        self.prev_bias_output = None
-        self.prev_weight_input_hidden = None
-        self.prev_weight_hidden_output = None
         self.loss = None
         self.optimizer = None
         self.layers = []
@@ -57,9 +49,6 @@ class Sequential:
         self.loss = loss
 
     def sigmoid(self, x):
-        if self.optimizer is None:
-            learning_rate = 1e-6
-            return 1 / (1 + np.exp(-learning_rate * x))
         return 1 / (1 + np.exp(-self.optimizer.learning_rate * x))
 
     @staticmethod
@@ -211,14 +200,9 @@ class Sequential:
 
     def predict(self, x):
 
-        if self.layers is None:
-            hidden_layer_neurons = self.feedforward(x, self.weight_input_hidden, self.bias_hidden)
+        hidden_layer_neurons = self.sigmoid(x @ self.weight_input_hidden + self.bias_hidden)
 
-            predicted = self.feedforward(hidden_layer_neurons, self.weight_hidden_output, self.bias_output)
-        else:
-            hidden_layer_neurons = self.sigmoid(x @ self.weight_input_hidden + self.bias_hidden)
-
-            predicted = hidden_layer_neurons @ self.weight_hidden_output + self.bias_output
+        predicted = hidden_layer_neurons @ self.weight_hidden_output + self.bias_output
 
         return predicted
 
@@ -378,7 +362,7 @@ if __name__ == "__main__":
     # hidden_neuron = sys.argv[4]
     # output_neuron = sys.argv[5]
 
-    file_name = "ce889_dataCollection_15k.csv"
+    file_name = "15k/ce889_dataCollection_15k.csv"
     log_name = "activity_hidden4.log"
     input_neuron = 2
     hidden_neuron = 4  # 2/3(in+out)
