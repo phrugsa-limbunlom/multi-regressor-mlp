@@ -58,7 +58,7 @@ class Sequential:
 
     def sigmoid(self, x):
         if self.optimizer is None:
-            learning_rate = 1e-5
+            learning_rate = 1e-6
             return 1 / (1 + np.exp(-learning_rate * x))
         return 1 / (1 + np.exp(-self.optimizer.learning_rate * x))
 
@@ -146,7 +146,6 @@ class Sequential:
             shuffle_idx = np.random.permutation(len(x_train))
             X_train_shuffled, y_train_shuffled = x_train[shuffle_idx, :], y_train[shuffle_idx, :]
 
-            training_loss_batch = 0.0
             # feedforward
             hidden_layer_neurons = self.feedforward(X_train_shuffled, self.weight_input_hidden,
                                                     self.bias_hidden)
@@ -285,8 +284,8 @@ def preprocessing(dataframe):
 
 def train_model(path, x_train, y_train):
     # hyperparameters grid for tuning
-    learning_rates = [0.1, 1e-2, 1e-3, 1e-4, 1e-5]
-    momentum = [0.9, 0.95, 0.8, 8e-2, 8e-3]
+    learning_rates = [0.1, 1e-2, 1e-3, 1e-4, 1e-5, 1e-6]
+    momentum = [0.9, 0.95, 0.8, 8e-2, 8e-3, 8e-5]
 
     final_lr = 0.0
     final_momentum = 0.0
@@ -367,7 +366,7 @@ def visualization(model):
     plt.xlabel('Epochs')
     plt.ylabel('Root Mean Square Error (RMSE)')
     plt.legend()
-    plt.savefig('Loss of 22K')
+    plt.savefig('Loss of 15K')
     plt.show()
 
 
@@ -379,7 +378,7 @@ if __name__ == "__main__":
     # hidden_neuron = sys.argv[4]
     # output_neuron = sys.argv[5]
 
-    file_name = "ce889_dataCollection.csv"
+    file_name = "ce889_dataCollection_15k.csv"
     log_name = "activity_hidden4.log"
     input_neuron = 2
     hidden_neuron = 4  # 2/3(in+out)
@@ -402,10 +401,6 @@ if __name__ == "__main__":
     df = pd.read_csv(file_name, names=['col1', 'col2', 'col3', 'col4'])
 
     x, y = preprocessing(df)
-
-    # np.random.seed(42)
-    # x = np.random.rand(22000, 2)
-    # y = np.random.rand(22000, 2)
     # end preprocessing data
 
     logging.info(f"Features size : {len(x)}, Labels size : {len(y)}")
