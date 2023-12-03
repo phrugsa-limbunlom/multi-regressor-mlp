@@ -108,18 +108,13 @@ class Sequential:
         self.prev_weight_hidden_output = np.zeros_like(self.weight_hidden_output)
         self.prev_bias_output = np.zeros_like(self.bias_output)
 
-    def fit(self, x, y, epochs):
+    def fit(self, x_train, y_train, x_val, y_val, epochs):
 
         input_neurons_size = self.layers[0].neuron
         hidden_neurons_size = self.layers[1].neuron
         output_neurons_size = self.layers[2].neuron
 
         self.initialize_weights_and_biases(input_neurons_size, hidden_neurons_size, output_neurons_size)
-
-        x_train, y_train, x_val, y_val = Model_Selection().train_test_split(x, y, validation_size / (1 - test_size))
-
-        logging.info(
-            f"X train size : {len(x_train)}, y train size : {len(y_train)}, X validation size : {len(x_val)}, y validation size : {len(y_val)}")
 
         # early stopping parameters
         max_failed_threshold = 10
@@ -266,7 +261,7 @@ def preprocessing(dataframe):
     return x, y
 
 
-def train_model(path, x_train, y_train):
+def train_model(path, x_train, y_train, x_val, y_val):
     # hyperparameters grid for tuning
     learning_rates = [0.1, 1e-2, 1e-3, 1e-4, 1e-5, 1e-6]
     momentum = [0.9, 0.95, 0.8, 8e-2, 8e-3, 8e-5]
@@ -292,7 +287,7 @@ def train_model(path, x_train, y_train):
 
             model.compiler(optimizer=sgd, loss=rmse)
 
-            fit = model.fit(x_train, y_train, epochs=100)
+            fit = model.fit(x_train, y_train, x_val, y_val, epochs=100)
 
             if fit:
                 logging.info("No early stopping!")
@@ -368,9 +363,6 @@ if __name__ == "__main__":
     hidden_neuron = 4  # 2/3(in+out)
     output_neuron = 2
 
-    validation_size = 0.15
-    test_size = 0.15
-
     save_path = 'model_saved'
     # end parameters region
 
@@ -389,12 +381,21 @@ if __name__ == "__main__":
 
     logging.info(f"Features size : {len(x)}, Labels size : {len(y)}")
 
+    validation_size = 0.15
+    test_size = 0.15
+
     x_train, y_train, x_test, y_test = Model_Selection().train_test_split(x, y, test_size, False)
+
+    x_train, y_train, x_val, y_val = Model_Selection().train_test_split(x_train, y_train,
+                                                                        validation_size / (1 - test_size))
 
     logging.info(
         f"X train size : {len(x_train)}, y train size : {len(y_train)}, X test size : {len(x_test)}, y test size : {len(y_test)}")
 
-    model = train_model(save_path, x_train, y_train)
+    logging.info(
+        f"X train size : {len(x_train)}, y train size : {len(y_train)}, X validation size : {len(x_val)}, y validation size : {len(y_val)}")
+
+    model = train_model(save_path, x_train, y_train, x_val, y_val)
 
     test_model(model, x_test, y_test)
 
