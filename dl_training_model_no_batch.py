@@ -169,12 +169,11 @@ class Sequential:
             self.validation_losses.append(validation_loss)
 
             # early stopping criteria
-            if epoch <= 100:
-                if validation_loss < minimum_loss:
-                    minimum_loss = validation_loss
-                    current_failed_threshold = 0
-                else:
-                    current_failed_threshold += 1
+            if validation_loss < minimum_loss:
+                minimum_loss = validation_loss
+                current_failed_threshold = 0
+            else:
+                current_failed_threshold += 1
 
             # stop fitting the model for current hyperparameters
             # if a number of the current loss greater than the previous loss
@@ -351,17 +350,17 @@ def visualization(model):
 
 if __name__ == "__main__":
     # parameters region
-    # file_name = sys.argv[1]
-    # log_name = sys.argv[2]
-    # input_neuron = sys.argv[3]
-    # hidden_neuron = sys.argv[4]
-    # output_neuron = sys.argv[5]
+    file_name = sys.argv[1]
+    log_name = sys.argv[2]
+    input_neuron = int(sys.argv[3])
+    hidden_neuron = int(sys.argv[4])
+    output_neuron = int(sys.argv[5])
 
-    file_name = "15k/ce889_dataCollection_15k.csv"
-    log_name = "activity_hidden4.log"
-    input_neuron = 2
-    hidden_neuron = 4  # 2/3(in+out)
-    output_neuron = 2
+    # file_name = "15k/ce889_dataCollection_15k.csv"
+    # log_name = "activity_hidden4.log"
+    # input_neuron = 2
+    # hidden_neuron = 4  # 2/3(in+out)
+    # output_neuron = 2
 
     save_path = 'model_saved'
     # end parameters region
