@@ -1,11 +1,11 @@
 ﻿# CE889_Individual_Project
 Command to Run the Python Script
 ```
-python dl_training_model_no_batch.py [file path of data set] [log file name] [input neurons size] [hidden neurons size] [output neurons size]
+python src/dl_training_model_no_batch.py [file path of data set] [log file name] [input neurons size] [hidden neurons size] [output neurons size]
 ```
 Example
 ```
-python dl_training_model_no_batch.py 15k/ce889_dataCollection_15k.csv activity_hidden4.log 2 4 2
+python src/dl_training_model_no_batch.py data/ce889_dataCollection_15k.csv output/activity_hidden4.log 2 4 2
 ```
 Parameters:
 - **file path of data set**: The path to the dataset for training.

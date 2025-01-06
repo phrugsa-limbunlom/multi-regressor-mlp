@@ -382,7 +382,7 @@ if __name__ == "__main__":
     # hidden_neuron = sys.argv[4]
     # output_neuron = sys.argv[5]
 
-    file_name = "../15k/ce889_dataCollection_15k.csv"
+    file_name = "../../data/ce889_dataCollection_15k.csv"
     log_name = "activity_hidden4.log"
     input_neuron = 2
     hidden_neuron = 4  # 2/3(in+out)

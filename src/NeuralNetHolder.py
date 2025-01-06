@@ -1,8 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from my_trained_model.dl_training_model_no_batch import Sequential, SGD, RootMeanSquaredError, Layer
-
+from src.dl_training_model_no_batch import Sequential, SGD, RootMeanSquaredError, Layer
 
 class NeuralNetHolder:
 
