@@ -15,7 +15,7 @@ python src/dl_training_model_no_batch.py data/ce889_dataCollection_15k.csv outpu
 - **output neurons size**: The number of output neurons for the model.
 
 ### Output
-![output/Loss of 15K batch.png](output/Loss of 15K batch.png)
+![image](https://github.com/user-attachments/assets/1cb34992-920d-4cad-a844-aa9286a5d418)
 
 ### Resource
 Presentation: [[2311569][Phrugsa]CE899-Individual Project.pptx](https://github.com/phrugsa-limbunlom/CE889_Individual_Project_MLP_from_scratch/blob/main/%5B2311569%5D%5BPhrugsa%5DCE899-Individual%20Project.pptx)
