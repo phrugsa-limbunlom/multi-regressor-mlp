@@ -1,4 +1,6 @@
 ﻿# Multi Regressor MLP
+Implemented feedforward and backpropagation algorithms to optimize landing parameters without external libraries.
+
 ### Command to Run the Python Script
 ```
 python src/dl_training_model_no_batch.py [file path of data set] [log file name] [input neurons size] [hidden neurons size] [output neurons size]
