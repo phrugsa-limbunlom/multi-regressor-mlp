@@ -1,5 +1,7 @@
 ﻿# Multi Regressor MLP
-Implemented feedforward and backpropagation algorithms to optimize landing parameters without external libraries.
+Implemented a multilayer perceptron (MLP) model with feedforwarding and backpropagation algorithms to optimize landing parameters without external libraries. 
+
+<img alt="Numpy" src="https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white">
 
 ### Command to Run the Python Script
 ```
